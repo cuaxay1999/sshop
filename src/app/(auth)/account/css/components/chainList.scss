@@ -1,0 +1,30 @@
+.form-content {
+}
+.chain-list-content {
+  width: 100%;
+  .sub-des {
+    margin-bottom: 24px;
+    line-height: 18px;
+    .btn-link {
+      margin-left: 6px;
+    }
+  }
+  .chain-list {
+    margin-bottom: 24px;
+    .ant-radio-checked .ant-radio-inner {
+      border-color: var(--app-primary-color);
+      &::after {
+        background-color: var(--app-primary-color);
+      }
+    }
+    .ant-radio-wrapper:hover .ant-radio,
+    .ant-radio:hover .ant-radio-inner,
+    .ant-radio-input:focus + .ant-radio-inner {
+      border-color: var(--app-primary-color);
+    }
+  }
+  .btn-action {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}

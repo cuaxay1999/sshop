@@ -1,0 +1,13 @@
+export { default as FacebookIcon } from "./files-icon/facebook-icon.webp";
+export { default as MessengerIcon } from "./files-icon/messenger-icon.webp";
+export { default as ZaloIcon } from "./files-icon/zalo-icon.webp";
+export { default as HeightLightIcon } from "./files-icon/success-check-mark-icon.webp";
+export { default as PhoneIconPng } from "./files-icon/phone-icon.webp";
+export { default as CheckIcon } from "./files-icon/check-icon.webp";
+export { default as CircleCheck } from "./files-icon/circle-check.webp";
+export { default as PhoneIconSolid } from "./files-icon/phone-icon-solid.webp";
+export { default as EmailIconSolid } from "./files-icon/emai-icon-solid.webp";
+export { default as PhoneIcon } from "./files-icon/phone-icon.webp";
+export { default as EmailIcon } from "./files-icon/email-icon.webp";
+export { default as LocationIcon } from "./files-icon/location.webp";
+export { default as Tick } from "./files-icon/tick-bang-gia.webp";

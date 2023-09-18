@@ -1,0 +1,39 @@
+.logo-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .spa-ic {
+    background-color: var(--btn-confirm-color);
+    font-weight: 700;
+    margin-right: 12px;
+    font-size: 32px;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .spa-text {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &.small {
+    .spa-ic {
+      width: 22px;
+      height: 22px;
+      font-size: 18px;
+      line-height: 18px;
+      margin-right: 6px;
+    }
+    .spa-text {
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }
+}

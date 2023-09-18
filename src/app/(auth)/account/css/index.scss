@@ -1,0 +1,82 @@
+@import "./components/login.scss";
+@import "./components/verifyOTP.scss";
+@import "./components/checkPhoneNumber.scss";
+
+.account-page {
+  .account-wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .account-top-wrapper {
+      text-align: center;
+      margin-bottom: 25px;
+
+      .page-logo {
+        display: flex;
+        height: 70px;
+        margin-bottom: 12px;
+      }
+
+      .page-heading {
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 24px;
+        margin-top: 24px;
+      }
+
+      .page-sub-heading {
+        text-transform: uppercase;
+        font-size: 16px;
+      }
+    }
+
+    .account-main-content {
+      width: 400px;
+      max-width: 100%;
+      height: fit-content;
+
+      .form-heading {
+        margin-bottom: 12px;
+        font-size: 16px;
+      }
+
+      .error-msg {
+        color: var(--error-color);
+      }
+
+      .ant-form-item-explain-error {
+        margin-left: 5px;
+      }
+
+      .phone-input,
+      .ant-input-affix-wrapper,
+      .ant-input {
+        padding-left: 12px;
+      }
+
+      .btn-action,
+      .phone-input,
+      .ant-input-affix-wrapper,
+      .ant-input {
+        border-radius: 5px !important;
+      }
+    }
+
+    .support-info {
+      text-align: center;
+      color: black;
+      font-size: 14px;
+    }
+  }
+}
+.button-email-or-phone {
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+  color: var(--txt-app-color);
+}

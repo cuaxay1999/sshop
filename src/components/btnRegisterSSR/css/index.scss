@@ -1,0 +1,19 @@
+.btn-register-section {
+  display: block;
+  margin: 0 auto;
+  background-color: #feb700;
+  border-color: #feb700;
+  height: fit-content;
+  border-radius: 8px;
+  margin: 0 auto;
+
+  &:active,
+  &:hover {
+    background: #feb700 !important;
+    border-color: transparent !important;
+  }
+}
+
+.linkSSR {
+  padding: 12px 0;
+}

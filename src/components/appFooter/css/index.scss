@@ -1,0 +1,35 @@
+.app-footer {
+  &__content {
+    font-size: 16px;
+    max-width: 960px;
+    margin: 0 auto;
+    color: var(--color-footer);
+
+    &__heading {
+      font-size: 20px !important;
+      color: var(--color-footer);
+      text-transform: uppercase;
+    }
+
+    &__sub-heading {
+      font-size: 1rem;
+      color: var(--color-footer);
+      text-transform: uppercase;
+    }
+
+    .icon-footer {
+      height: 1.2rem;
+      width: auto;
+    }
+
+    .row-nowrap {
+      flex-flow: nowrap;
+    }
+  }
+}
+
+.app-footer {
+  &__content * {
+    font-size: inherit;
+  }
+}

@@ -1,0 +1,27 @@
+.banner-2 {
+    text-transform: uppercase;
+    margin: 0 auto;
+
+    .col-left {
+        position: relative;
+        right: -150px;
+    }   
+
+    .col-right {
+        text-align: center;
+
+        h1, h3 {
+            color: #078C6A;
+            font-weight: 900;
+            margin: 0px;
+        }
+
+        h3 {
+            font-size: 35px;
+        }
+    
+        h1 {
+            font-size: 45px;
+        }
+    }
+}

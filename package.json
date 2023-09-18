@@ -1,18 +1,51 @@
 {
-  "name": "sshop-landing-nextjs",
+  "name": "sshop-console-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "env-cmd -e development next dev",
+    "build": "cp .env.production .env.local && next build",
+    "build:dev": "cp .env.development .env.local && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.17.0",
+    "@ant-design/icons": "^5.2.5",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
+    "@mui/styled-engine-sc": "^5.14.7",
+    "antd": "^5.8.5",
+    "axios": "^1.5.0",
+    "babel-plugin-import": "^1.13.8",
+    "env-cmd": "^10.1.0",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "firebase": "^10.3.0",
+    "google-map-react": "^2.2.1",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.29.4",
     "next": "13.4.19",
+    "node-sass": "^9.0.0",
+    "qs": "^6.11.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-cropper": "^2.3.3",
+    "react-dom": "18.2.0",
+    "react-facebook-login": "^4.1.1",
+    "react-phone-number-input": "^3.3.5",
+    "react-redux": "^8.1.2",
+    "react-slick": "^0.29.0",
+    "redux": "^4.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.66.1",
+    "sharp": "^0.32.5",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0"
   }
 }

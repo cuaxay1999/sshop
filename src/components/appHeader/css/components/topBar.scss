@@ -1,0 +1,76 @@
+.top-bar {
+  background-color: #d9d9d9;
+  padding: 8px 100px;
+  display: none;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+
+    &__left {
+      .top-bar-icon {
+        height: 1.6rem;
+        margin-bottom: -0.47rem;
+      }
+    }
+
+    &__right {
+      display: flex;
+
+      .app-logo {
+        height: 1.1rem;
+        margin-right: 8px;
+      }
+
+      span {
+        color: #068b68;
+      }
+
+      .btn-open-menu-mobile {
+        display: none;
+        svg {
+          height: 1.6rem;
+          width: 1.6rem;
+        }
+      }
+    }
+  }
+
+  .ant-btn-icon-only span {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1023px) {
+  .top-bar {
+    padding: 12px 25px;
+    display: block;
+
+    &__content {
+      flex-direction: column;
+
+      &__left {
+        display: none;
+      }
+
+      &__right {
+        .btn-open-menu-mobile {
+          display: block;
+        }
+
+        .app-logo {
+          height: 2.3rem;
+          display: block;
+          margin: 0px auto;
+        }
+
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}

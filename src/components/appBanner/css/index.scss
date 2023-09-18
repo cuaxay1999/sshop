@@ -1,0 +1,44 @@
+@import "./components/banner1.scss";
+@import "./components/banner2.scss";
+
+.app-banner {
+  &__content {
+    padding: 50px 80px 0px;
+    max-width: 1380px;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 100%;
+    max-width: 675px;
+  }
+
+  .row-nowrap {
+    flex-flow: nowrap;
+  }
+
+  // .slick-dots {
+  //     bottom: -30px;
+
+  //     li {
+  //         button:before {
+  //             font-size: 15px;
+  //             color: #FEB700;
+  //         }
+
+  //         &.slick-active {
+  //             button:before {
+  //                 color: #078C6A;
+  //             }
+  //         }
+  //     }
+  // }
+}
+
+@media (max-width: 1023px) {
+  .app-banner {
+    &__content {
+      padding: 25px;
+    }
+  }
+}

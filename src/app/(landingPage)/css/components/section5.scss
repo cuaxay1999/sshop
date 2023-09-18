@@ -1,0 +1,16 @@
+.section-5 {
+  .section-heading {
+    display: block;
+    max-width: 850px;
+    text-align: center !important;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .section-4 {
+    .section-heading {
+      text-align: justify !important;
+    }
+  }
+}

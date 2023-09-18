@@ -1,0 +1,96 @@
+.news-page {
+    .page-content {
+        margin: 0 auto;
+        padding: 20px 50px 50px;
+        box-sizing: border-box;
+        max-width: 1380px;
+        
+
+        .section-news-top-1 {
+            .news-item {
+                height: 100%;
+                box-shadow: 0px 0px 5px #d8d8d8;
+            }
+        }
+
+        .section-category {
+            .ant-menu-horizontal.menu-category {
+                border-bottom: 0px;
+                margin-left: -20px;
+                line-height: normal;
+                background: none;
+
+                .ant-menu-item {
+                    color: #A7A5A5;
+                    font-weight: 700;
+                    font-size: 16px;
+
+                    &::after {
+                        border-bottom: 0px;
+                    }
+
+                    &.ant-menu-item-selected {
+                        color: #2F2F2F;
+                    }
+                }
+            }
+        }
+
+        .section-list-news {
+            .news-item {
+                .news-item-right {
+                    padding-top: 0px;
+                }
+            }
+
+            .ant-pagination {
+                width: 100%;
+                text-align: center;
+                margin-top: 16px;
+            }
+        }
+    }
+}
+
+// mobile and table
+@media (max-width: 1023px) {
+    .news-page {
+        .page-content {
+            padding: 25px;
+
+            .section-list-news {
+                .news-item {
+                    box-shadow: 0px 0px 5px #ccc;
+                }
+
+                .section-list-news-left {
+                    width: 100%;
+                }
+
+                .section-list-news-right {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// mobile
+@media (max-width: 576px) {
+    .news-page {
+        .page-content {
+            .section {
+                .news-item {
+                    .news-item-right {
+                        padding-top: 16px;
+
+                        .box-render-time {
+                            position: absolute;
+                            bottom: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
