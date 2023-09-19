@@ -21,7 +21,7 @@ import Link from "next/link";
 
 const NOW = new Date();
 
-const Guide = async ({ params }) => {
+const News = async ({ params }) => {
   const newsList = [];
   let newsView = null;
 
@@ -175,4 +175,4 @@ const Guide = async ({ params }) => {
   );
 };
 
-export default Guide;
+export default News;
