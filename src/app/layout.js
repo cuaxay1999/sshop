@@ -37,6 +37,7 @@ export default function RootLayout({ children }) {
         <RootStyleRegistry>
           <Provider>
             <BaseLayout className="app-container">{children}</BaseLayout>
+            <div id="recaptcha-container"></div>
           </Provider>
         </RootStyleRegistry>
       </body>

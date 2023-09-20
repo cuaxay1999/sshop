@@ -75,7 +75,7 @@ export default function BaseLayout({ children }) {
 
   const handleGetUserInfo = async () => {
     try {
-      dispatch(getUserInfo(navigate));
+      dispatch(getUserInfo(push));
     } catch (error) {}
   };
 
