@@ -1,8 +1,10 @@
 import { Button } from "antd";
 import "./css/index.scss";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-const BtnRegisterSSR = ({ txtBtn, texts }) => {
+const BtnRegisterSSR = ({ txtBtn }) => {
+  const t = useTranslations("BtnRegisterSSR");
   return (
     <Button
       className="btn-register-section"
@@ -11,7 +13,7 @@ const BtnRegisterSSR = ({ txtBtn, texts }) => {
       style={{ background: "#FEB700" }}
     >
       <Link className="linkSSR" href="/account">
-        {txtBtn ? txtBtn : texts?.REGISTER_NOW}
+        {txtBtn ? txtBtn : t("REGISTER_NOW")}
       </Link>
     </Button>
   );

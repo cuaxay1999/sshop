@@ -1,0 +1,71 @@
+{
+  "SelectLanguage": {
+    "APP_SETTING_SELECT_LANGUAGE": "Chọn ngôn ngữ"
+  },
+  "AppFooter": {
+    "OWNERS_AND_DEVELOPMENT_UNIT": "Đơn vị xây dựng nền tảng",
+    "SFIN_SMART_JSC": "CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG MINH SFIN",
+    "SFIN_ADDRESS": "Phòng 01 tầng 07 số 89B Đường Hồ Đền Lừ, Phường Hoàng Văn Thụ, Quận Hoàng Mai, Thành phố Hà Nội, Việt Nam",
+    "LABEL_HOTLINE": "Hotline",
+    "SUPPORT_PHONE": "+84969877888",
+    "LABEL_EMAIL": "Email",
+    "SUPPORT_EMAIL": "letaidai@sfin.vn",
+    "COOPERATION_AND_CUSTOMER_CARE_UNIT": "Đơn vị phát triển khách hàng",
+    "GOL_SOFTWARE_COMPANY_LIMITED": "CÔNG TY CỔ PHẦN CÔNG NGHỆ THÔNG MINH SFIN",
+    "GOL_PHONE_CONTACT": "Số 89B Đường Hồ Đền Lừ, Phường Hoàng Văn Thụ, Hoàng Mai, Hà Nội",
+    "GOL_HOTLINE": "0969877888",
+    "SSHOP_SUPPORT_EMAIL_GOLSOFT": "letaidai@sfin.vn",
+    "CERTIFICATION": "Chứng nhận",
+    "BUSINESS_LIECENSE": "Giấy phép kinh doanh",
+    "DATED": "cấp ngày",
+    "BY_BRO": "bởi Phòng Đăng ký kinh doanh - Sở Kế Hoạch và Đầu Tư Thành Phố Hà Nội",
+    "LINK_APP_IOS": "https://apps.apple.com/vn/app/sshop-s%E1%BB%95-b%C3%A1n-h%C3%A0ng/id1629584008",
+    "LINK_APP_ANDROID": "https://play.google.com/store/apps/details?id=sfin.sshop.vn"
+  },
+  "AppBaner": {
+    "INTELLIGENT_SALES_MANAGEMENT_PLATFORM": "Nền tảng quản lý bán hàng thông minh",
+    "SIMPLE_CONVENIENT_AND_EASY_TO_USE": "Đơn giản, tiện lợi và dễ sử dụng",
+    "OPTIMIZING_THE_SALES_PROCESS": "Tối ưu quy trình bán hàng",
+    "COMPREHENSIVE_CUSTOMER_CARE_SOLUTION": "Giải pháp chăm sóc khách hàng toàn diện",
+    "LOG_IN": "Đăng nhập",
+    "SIGN_UP_TRIAL": "Đăng ký dùng thử"
+  },
+  "Section1": {
+    "SHOP_HELP_YOU_MANAGE_YOUR_SALES_EASILY_EFFECTIVELY": "SSHOP GIÚP BẠN QUẢN LÝ BÁN HÀNG, DỄ DÀNG, HIỆU QUẢ",
+    "EASY_TO_USE_ON_MULTIPLE_PLATFORMS": "Dễ dàng sử dụng trên đa nền tảng",
+    "SMART_INTERFACE_USED_IN_COMPUTERS_SMART_DEVICES": "Giao diện thông minh dùng trong máy tính, thiết bị thông minh",
+    "QUICK_INPUT_AND_SALES_MANAGEMENT_INTERFACE": "Giao diện nhập và quản lý bán hàng nhanh chóng",
+    "OPERATE_YOUR_CHAIN_AND_STORES_WITH_EASE": "Vận hành chuỗi và cửa hàng một cách dễ dàng",
+    "EFFICIENT_AND_INTELLIGENT_WAREHOUSE_OPERATION": "Quản lý vận hành kho hàng hiệu quả, thông minh",
+    "QUICK_IMPORT_AND_EXPORT_OPERATIONS": "Thao tác xuất nhập kho nhanh chóng",
+    "INVENTORY_REPORT_HOT_SELLING_PRODUCTS": "Báo cáo tồn kho, sản phẩm bán chạy, cảnh báo hết hàng",
+    "ACCURATE_TO_EACH_PRODUCT_UNIT": "Chính xác đến từng đơn vị sản phẩm",
+    "OPERATE_THE_STORE_REMOTELY_SMOOTHLY_IN_DETAIL": "Vận hành cửa hàng từ xa, trơn tru, chi tiết",
+    "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "Thông báo đơn hàng, biến động doanh thu",
+    "CALCULATING_SALARY_UPDATED_EVERY_DAY": "Tính lương, cập nhật theo từng ngày",
+    "SUPPORT_CUSTOMERS_TO_PLACE_ORDERS_REMOTELY": "Hỗ trợ khách hàng lên đơn hàng từ xa"
+  },
+  "Section2": {
+    "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Tiên phong cung cấp giải pháp bán hàng online, offline 4.0 cho một doanh nghiệp",
+    "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Tạo chuỗi cửa hàng, giao diện chức năng theo từng ngành nghề",
+    "APPLYING_AI_TECHNOLOGY": "Ứng dụng công nghệ 4.0 AI, tối ưu bán hàng, nâng cao trải nghiệm khách hàng",
+    "CAPTURE_CUSTOMER_NEEDS": "Nắm bắt nhu cầu, thay đổi của khác hàng đối với mô hình kinh doanh của bạn"
+  },
+  "Section3": {
+    "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Giải pháp quản lý kho hàng hiệu quả, chính xác đến từng đơn vị  sản phẩm",
+    "SMART_REPORT_STATISTICS": "Thống kê báo cáo thông minh, cảnh báo sản phẩm tồn tại, hết trong kho",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Tra cứu lịch sử xuất nhập, sử dụng sản phẩm trong cửa hàng. An toàn và minh bạch",
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Cung cấp đầy đủ các quy trình xuất, nhập, đổi trả trong kho"
+  },
+  "Section4": {
+    "SELL_RIGHT_ON_THE_PHONE": "Bán hàng ngay trên điện thoại",
+    "SALES_MANAGEMENT_APPLICATION": "Ứng dụng quản lý bán hàng giúp tạo đơn nhanh chóng bằng cách dùng camera điện thoại quét mã vạch. Bạn có thể kết nối điện thoại với máy in đế xuất hóa đơn cho khách ngay lập tức",
+    "VIEW_REPORTS_ANYTIME_ANYWHERE": "Xem báo cáo mọi lúc mọi nơi",
+    "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Phần mềm bán hàng trên điện thoại sẽ thống kê doanh thụ tức thì\ncủa từng một hàng cũng như lịch sử giao dịch. Bạn có thể quản lý kho hàng, cửa hàng, nhãn viên từ xa mà không căn có mặt tại đó",
+    "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Tương thích với mọi thiết bị di động",
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "Ứng dụng SShopcó mặt trên cả hai hệ điều hành là Android và IOS. Do đó, bạn có thể sử dụng app Shop trên các thiết bị khác nhau, đảm bảo được việc quản lý cửa hàng bán lẻ mọi lúc mọi nơi"
+  },
+  "BtnRegisterSSR": {
+    "REGISTER_NOW": "Đăng ký ngay"
+  }
+}

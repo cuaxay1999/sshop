@@ -1,0 +1,71 @@
+{
+  "SelectLanguage": {
+    "APP_SETTING_SELECT_LANGUAGE": "言語を選択する"
+  },
+  "AppFooter": {
+    "OWNERS_AND_DEVELOPMENT_UNIT": null,
+    "SFIN_SMART_JSC": "SFIN スマート技術株式会社",
+    "SFIN_ADDRESS": "ルーム 01、07 階、No. 89B Ho Den Lu Street、Hoang Van Thu Ward、Hoang Mai District、ハノイ市、ベトナム",
+    "LABEL_HOTLINE": "Hotline",
+    "SUPPORT_PHONE": "+84969877888",
+    "LABEL_EMAIL": "メール",
+    "SUPPORT_EMAIL": "letaidai@sfin.vn",
+    "COOPERATION_AND_CUSTOMER_CARE_UNIT": null,
+    "GOL_SOFTWARE_COMPANY_LIMITED": "",
+    "GOL_PHONE_CONTACT": "No. 89B Ho Den Lu Street, Hoang Van Thu Ward, Hoang Mai District, Hanoi City, Vietnam",
+    "GOL_HOTLINE": "+84969877888",
+    "SSHOP_SUPPORT_EMAIL_GOLSOFT": "letaidai@sfin.vn",
+    "CERTIFICATION": "証明書",
+    "BUSINESS_LIECENSE": "事業許可",
+    "DATED": "発行日",
+    "BY_BRO": "ハノイ計画投資局、事業登録室",
+    "LINK_APP_IOS": "https://apps.apple.com/vn/app/sshop-s%E1%BB%95-b%C3%A1n-h%C3%A0ng/id1629584008",
+    "LINK_APP_ANDROID": "https://play.google.com/store/apps/details?id=sfin.sshop.vn"
+  },
+  "AppBaner": {
+    "INTELLIGENT_SALES_MANAGEMENT_PLATFORM": "スマート販売管理プラットフォーム",
+    "SIMPLE_CONVENIENT_AND_EASY_TO_USE": "シンプルで便利で使いやすい",
+    "OPTIMIZING_THE_SALES_PROCESS": "販売プロセスの最適化",
+    "COMPREHENSIVE_CUSTOMER_CARE_SOLUTION": "包括的なカスタマーケアソリューション",
+    "LOG_IN": "ログイン",
+    "SIGN_UP_TRIAL": "試用登録"
+  },
+  "Section1": {
+    "SHOP_HELP_YOU_MANAGE_YOUR_SALES_EASILY_EFFECTIVELY": "ショップは、販売を簡単かつ効果的に管理するのに役立ちます",
+    "EASY_TO_USE_ON_MULTIPLE_PLATFORMS": "複数のプラットフォームで使いやすい",
+    "SMART_INTERFACE_USED_IN_COMPUTERS_SMART_DEVICES": "コンピューター、スマート デバイスで使用されるスマート インターフェイス",
+    "QUICK_INPUT_AND_SALES_MANAGEMENT_INTERFACE": "クイック入力と販売管理インターフェース",
+    "OPERATE_YOUR_CHAIN_AND_STORES_WITH_EASE": "チェーンや店舗を簡単に運営",
+    "EFFICIENT_AND_INTELLIGENT_WAREHOUSE_OPERATION": "効率的でインテリジェントな倉庫運用管理",
+    "QUICK_IMPORT_AND_EXPORT_OPERATIONS": "クイック インポートおよびエクスポート操作",
+    "INVENTORY_REPORT_HOT_SELLING_PRODUCTS": "在庫報告、売れ筋商品、在庫切れ警告",
+    "ACCURATE_TO_EACH_PRODUCT_UNIT": "製品単位まで正確に",
+    "OPERATE_THE_STORE_REMOTELY_SMOOTHLY_IN_DETAIL": "店舗を遠隔で、スムーズに、きめ細かく運営",
+    "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "注文通知、収益変動",
+    "CALCULATING_SALARY_UPDATED_EVERY_DAY": "給与計算、毎日更新",
+    "SUPPORT_CUSTOMERS_TO_PLACE_ORDERS_REMOTELY": "顧客がリモートで注文できるようにサポートする"
+  },
+  "Section2": {
+    "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "ビジネス向けのオンラインおよびオフライン 4.0 販売ソリューションの提供におけるパイオニア",
+    "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "各業界向けの店舗チェーン、機能インターフェースを作成する",
+    "APPLYING_AI_TECHNOLOGY": "4.0 AI テクノロジーの適用、販売の最適化、カスタマー エクスペリエンスの向上",
+    "CAPTURE_CUSTOMER_NEEDS": "顧客ニーズの把握、ビジネス モデルの変更"
+  },
+  "Section3": {
+    "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "製品単位ごとの効率的かつ正確な倉庫管理ソリューション",
+    "SMART_REPORT_STATISTICS": "スマート レポート統計、製品警告あり、在庫なし",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "輸出入履歴の検索、ストア内の製品の使用。安全で透明",
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "倉庫での輸出、輸入、返品の全プロセスを提供"
+  },
+  "Section4": {
+    "SELL_RIGHT_ON_THE_PHONE": "電話で直接売る",
+    "SALES_MANAGEMENT_APPLICATION": "\n販売管理アプリケーションは、携帯電話のカメラを使用してバーコードをスキャンすることで、注文をすばやく作成するのに役立ちます。携帯電話をプリンターに接続して、レシートをすぐに受け取ることができます",
+    "VIEW_REPORTS_ANYTIME_ANYWHERE": "いつでもどこでもレポートを表示",
+    "SALES_SOFTWARE_ON_THE_PHONE_WILL": "\n電話の販売ソフトウェアは、即座に販売統計を作成します\n各行の取引履歴と同様に。物理的に存在しなくても、倉庫、店舗、ラベラーをリモートで管理できます",
+    "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "すべてのモバイルデバイスと互換性があります",
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "SShop アプリケーションは、Android と iOS の両方のオペレーティング システムで使用できます。したがって、さまざまなデバイスで Shop アプリを使用して、いつでもどこでも小売店を管理できます。"
+  },
+  "BtnRegisterSSR": {
+    "REGISTER_NOW": "今すぐ登録"
+  }
+}

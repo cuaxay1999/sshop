@@ -1,0 +1,71 @@
+{
+  "SelectLanguage": {
+    "APP_SETTING_SELECT_LANGUAGE": "Select language"
+  },
+  "AppFooter": {
+    "OWNERS_AND_DEVELOPMENT_UNIT": "Platform developer company",
+    "SFIN_SMART_JSC": "SMART TECHNOLOGY SFIN JOINT STOCK COMPANY",
+    "SFIN_ADDRESS": "Room 01, 07th floor, No. 89B Ho Den Lu Street, Hoang Van Thu Ward, Hoang Mai District, Hanoi City, Vietnam",
+    "LABEL_HOTLINE": "Hotline",
+    "SUPPORT_PHONE": "+84969877888",
+    "LABEL_EMAIL": "Email",
+    "SUPPORT_EMAIL": "letaidai@sfin.vn",
+    "COOPERATION_AND_CUSTOMER_CARE_UNIT": "Customer development partner",
+    "GOL_SOFTWARE_COMPANY_LIMITED": "SMART TECHNOLOGY SFIN JOINT STOCK COMPANY",
+    "GOL_PHONE_CONTACT": "No. 89B Ho Den Lu Street, Hoang Van Thu Ward, Hoang Mai District, Hanoi City, Vietnam",
+    "GOL_HOTLINE": "+84969877888",
+    "SSHOP_SUPPORT_EMAIL_GOLSOFT": "letaidai@sfin.vn",
+    "CERTIFICATION": "Certifications",
+    "BUSINESS_LIECENSE": "Business license",
+    "DATED": "dated",
+    "BY_BRO": "by Business Registration Office - Hanoi Department of Planning and Investment",
+    "LINK_APP_IOS": "https://apps.apple.com/vn/app/sshop-s%E1%BB%95-b%C3%A1n-h%C3%A0ng/id1629584008",
+    "LINK_APP_ANDROID": "https://play.google.com/store/apps/details?id=sfin.sshop.vn"
+  },
+  "AppBaner": {
+    "INTELLIGENT_SALES_MANAGEMENT_PLATFORM": "Smart sales management platform",
+    "SIMPLE_CONVENIENT_AND_EASY_TO_USE": "Simple, convenient and easy to use",
+    "OPTIMIZING_THE_SALES_PROCESS": "Optimizing the sales process",
+    "COMPREHENSIVE_CUSTOMER_CARE_SOLUTION": "Comprehensive customer care solution",
+    "LOG_IN": "Log in",
+    "SIGN_UP_TRIAL": "Sign up for a trial"
+  },
+  "Section1": {
+    "SHOP_HELP_YOU_MANAGE_YOUR_SALES_EASILY_EFFECTIVELY": "SHOP HELP YOU EASILY, EFFECTIVELY MANAGE YOUR SALES",
+    "EASY_TO_USE_ON_MULTIPLE_PLATFORMS": "Easy to use on multiple platforms",
+    "SMART_INTERFACE_USED_IN_COMPUTERS_SMART_DEVICES": "Smart interface used in computers, smart devices",
+    "QUICK_INPUT_AND_SALES_MANAGEMENT_INTERFACE": "Quick input and sales management interface",
+    "OPERATE_YOUR_CHAIN_AND_STORES_WITH_EASE": "Operate your chain and stores with ease",
+    "EFFICIENT_AND_INTELLIGENT_WAREHOUSE_OPERATION": "Efficient and intelligent warehouse operation management",
+    "QUICK_IMPORT_AND_EXPORT_OPERATIONS": "Quick import and export operations",
+    "INVENTORY_REPORT_HOT_SELLING_PRODUCTS": "Inventory report, hot selling products, out of stock warning",
+    "ACCURATE_TO_EACH_PRODUCT_UNIT": "Accurate to each product unit",
+    "OPERATE_THE_STORE_REMOTELY_SMOOTHLY_IN_DETAIL": "Operate the store remotely, smoothly, in detail",
+    "ORDER_NOTIFICATIONS_REVENUE_FLUCTUATIONS": "Order notifications, revenue fluctuations",
+    "CALCULATING_SALARY_UPDATED_EVERY_DAY": "Calculating salary, updated every day",
+    "SUPPORT_CUSTOMERS_TO_PLACE_ORDERS_REMOTELY": "Support customers to place orders remotely"
+  },
+  "Section2": {
+    "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Pioneering in providing online and offline 4.0 sales solutions for a business",
+    "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Create a chain of stores, functional interfaces for each industry",
+    "APPLYING_AI_TECHNOLOGY": "Applying 4.0 AI technology, optimizing sales, improving customer experience",
+    "CAPTURE_CUSTOMER_NEEDS": "Capture customer needs, changes to your business model"
+  },
+  "Section3": {
+    "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Efficient and accurate warehouse management solution for each product unit",
+    "SMART_REPORT_STATISTICS": "Smart report statistics, product warning exists, out of stock",
+    "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Look up import and export history, use products in the store. Safe and transparent",
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Provide a full range of export, import and return processes in the warehouse"
+  },
+  "Section4": {
+    "SELL_RIGHT_ON_THE_PHONE": "Sell ​​right on the phone",
+    "SALES_MANAGEMENT_APPLICATION": "Sales management application helps create orders quickly by using the phone camera to scan barcodes. You can connect your phone to the printer for instant receipts",
+    "VIEW_REPORTS_ANYTIME_ANYWHERE": "View reports anytime, anywhere",
+    "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Sales software on the phone will make instant sales statistics\nof each row as well as the transaction history. You can manage warehouses, stores, and labelers remotely without being physically present",
+    "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Compatible with all mobile devices",
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "The SShop application is available on both Android and iOS operating systems. Therefore, you can use the Shop app on different devices, ensuring retail store management anytime, anywhere."
+  },
+  "BtnRegisterSSR": {
+    "REGISTER_NOW": "Register now"
+  }
+}

@@ -18,8 +18,8 @@ const NavBar = (props) => {
 
   const locale = useSelector((state) => state.system.locale);
 
-  const generateLink = (path, routeName) => {
-    return routeName === "HOME_PAGE" ? `/${locale}` : path;
+  const generateLink = (path) => {
+    return `/${locale}${path}`;
   };
 
   const itemButton = ROUTERS.LANDING_PAGE.filter((it) => it.onMenu).map(

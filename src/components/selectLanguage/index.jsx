@@ -1,12 +1,13 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { Select } from "antd";
-import { getListCountry } from "@/app/(auth)/languageSetting/actions";
-import { actionChangeLanguage } from "@/app/(auth)/system/actions";
+import { getListCountry } from "@/app/[locale]/(auth)/languageSetting/actions";
 import { CaretDownOutlined } from "@ant-design/icons";
-import { useRouter, usePathname } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { usePathname, useRouter } from "next-intl/client";
+import { useDispatch, useSelector } from "react-redux";
+import { actionChangeLanguage } from "@/app/[locale]/(auth)/system/actions";
 
 const SelectLanguage = () => {
   const dispatch = useDispatch();
@@ -15,10 +16,10 @@ const SelectLanguage = () => {
   const [dataSelect, setDataSelect] = useState([]);
 
   const router = useRouter();
-  const pathName = usePathname();
+  const pathname = usePathname();
 
   const changeLocate = (locale) => {
-    ["/ja", "/en", "/vi"].includes(pathName) && router.push(locale);
+    router.replace(pathname, { locale: locale });
     dispatch(actionChangeLanguage(locale));
   };
 

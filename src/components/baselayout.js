@@ -15,13 +15,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-phone-number-input/style.css";
 import "antd/es/style/reset.css";
-import { actionChangeLanguage } from "@/app/(auth)/system/actions";
+import { actionChangeLanguage } from "@/app/[locale]/(auth)/system/actions";
 
 import {
   getLocaleConfigByCountryCode,
   updateCustomerConfigLanguage,
-} from "../app/(auth)/languageSetting/actions";
-import { actionSaveLanguage, getUserInfo } from "../app/(auth)/system/actions";
+} from "@/app/[locale]/(auth)/languageSetting/actions";
+import {
+  actionSaveLanguage,
+  getUserInfo,
+} from "@/app/[locale]/(auth)/system/actions";
 import { isEmpty } from "@/utils/helpers";
 
 import { navigatePages } from "@/utils/helpers/navigate";
@@ -36,11 +39,11 @@ export default function BaseLayout({ children }) {
   }
 
   const dispatch = useDispatch();
-  const pathName = usePathname();
-  const params = useParams();
+  // const pathName = usePathname();
+  // const params = useParams();
 
-  ["/ja", "/en", "/vi"].includes(pathName) &&
-    dispatch(actionChangeLanguage(params.locale));
+  // ["/ja", "/en", "/vi"].includes(pathName) &&
+  //   dispatch(actionChangeLanguage(params.locale));
 
   const locale = useSelector((state) => state.system.locale);
 

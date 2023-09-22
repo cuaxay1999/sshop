@@ -3,10 +3,11 @@ import { ImageBanner1 } from "@/assets/images";
 import Image from "next/image";
 import BtnRegisterSSR from "../btnRegisterSSR";
 import { HeightLightIcon } from "@/assets/icons";
-
+import { useTranslations } from "next-intl";
 import "./css/index.scss";
 
-const AppBaner = ({ texts }) => {
+const AppBaner = () => {
+  const t = useTranslations("AppBaner");
   return (
     <div className="app-banner">
       <div className="app-banner__content ">
@@ -14,7 +15,7 @@ const AppBaner = ({ texts }) => {
           <Row className="row-reverse-xs">
             <Col xs={24} md={24} lg={12}>
               <h1 className="banner-heading">
-                {texts?.INTELLIGENT_SALES_MANAGEMENT_PLATFORM}
+                {t("INTELLIGENT_SALES_MANAGEMENT_PLATFORM")}
               </h1>
 
               <Row gutter={[8, 8]} className="row-nowrap">
@@ -28,7 +29,7 @@ const AppBaner = ({ texts }) => {
                 </Col>
                 <Col>
                   <p className="banner-title">
-                    {texts?.SIMPLE_CONVENIENT_AND_EASY_TO_USE}
+                    {t("SIMPLE_CONVENIENT_AND_EASY_TO_USE")}
                   </p>
                 </Col>
               </Row>
@@ -44,7 +45,7 @@ const AppBaner = ({ texts }) => {
                 </Col>
                 <Col>
                   <p className="banner-title">
-                    {texts?.OPTIMIZING_THE_SALES_PROCESS}
+                    {t("OPTIMIZING_THE_SALES_PROCESS")}
                   </p>
                 </Col>
               </Row>
@@ -60,7 +61,7 @@ const AppBaner = ({ texts }) => {
                 </Col>
                 <Col className="ant-col">
                   <p className="banner-title">
-                    {texts?.COMPREHENSIVE_CUSTOMER_CARE_SOLUTION}
+                    {t("COMPREHENSIVE_CUSTOMER_CARE_SOLUTION")}
                   </p>
                 </Col>
               </Row>
@@ -68,11 +69,11 @@ const AppBaner = ({ texts }) => {
               <div className="btns">
                 <Row gutter={[20, 20]} className="row-nowrap">
                   <Col>
-                    <BtnRegisterSSR txtBtn={texts?.LOG_IN} />
+                    <BtnRegisterSSR txtBtn={t("LOG_IN")} />
                   </Col>
 
                   <Col>
-                    <BtnRegisterSSR txtBtn={texts?.SIGN_UP_TRIAL} />
+                    <BtnRegisterSSR txtBtn={t("SIGN_UP_TRIAL")} />
                   </Col>
                 </Row>
               </div>
