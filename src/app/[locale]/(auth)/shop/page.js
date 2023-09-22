@@ -19,9 +19,9 @@ import { useSearchParams } from "next/navigation";
 import { useSelector } from "react-redux";
 import AppLogo from "@/components/appLogo";
 import GoogleMap from "@/components/googleMap";
-import { chain_banner } from "../../../assets/images";
+import { chain_banner } from "@/assets/images";
 import { actionGetRegion } from "../system/systemAction";
-import { isEmpty } from "../../../utils/helpers";
+import { isEmpty } from "@/utils/helpers";
 import cookie from "js-cookie";
 import Image from "next/image";
 
@@ -38,7 +38,7 @@ import {
   CONFIG_SERVER,
   SSHOP_SPA_TOKEN,
   PHONE_PATTERN,
-} from "../../../utils/constants/config";
+} from "@/utils/constants/config";
 
 import "./css/index.scss";
 
