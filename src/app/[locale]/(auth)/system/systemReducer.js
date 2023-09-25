@@ -6,7 +6,7 @@ import * as actions from "@/utils/constants/actions";
 // const locale = useLocale()
 
 const initialState = {
-  locale: cookie.get(NEXT_LOCALE) || "en",
+  locale: cookie.get(NEXT_LOCALE) || "vi",
   isLoading: false,
   texts: {},
 };
