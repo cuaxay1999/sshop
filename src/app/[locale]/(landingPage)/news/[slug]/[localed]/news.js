@@ -52,7 +52,7 @@ const News = async ({ params }) => {
     const { status } = data;
 
     if (status.code == 200) {
-      handleSetNewsList(data.newsResponseList, newsId);
+      handleSetNewsList(data?.data.newsResponseList, newsId);
     }
   };
 
@@ -78,7 +78,7 @@ const News = async ({ params }) => {
   };
 
   const generateLinkHref = (newsId, newsTitle = "") => {
-    return `/guides/${genNewsSlug(newsTitle, newsId)}/${locale}`;
+    return `/news/${genNewsSlug(newsTitle, newsId)}/${locale}`;
   };
 
   if (slug && locale) {
@@ -135,7 +135,14 @@ const News = async ({ params }) => {
                 newsList.map((it) => (
                   <Col span={24} key={it.id}>
                     <Row className="news-item">
-                      <Link href={generateLinkHref(it.id, it.title)}>
+                      <Link
+                        href={generateLinkHref(it.id, it.title)}
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          width: "100%",
+                        }}
+                      >
                         <Col xxl={6} lg={8} sm={10} xs={24}>
                           <div
                             className="thumbnail"

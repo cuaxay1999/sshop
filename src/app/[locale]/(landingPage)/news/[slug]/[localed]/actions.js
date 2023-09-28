@@ -1,4 +1,5 @@
 import api from "@/utils/service/api";
+import { APP_ID } from "@/utils/constants/config";
 
 // lấy bài viết theo id và languageCode
 export const actionGetPostsByIdAndLanguage = (id, languageCode) => {
@@ -14,6 +15,9 @@ export const actionGetAllNews = (params = {}) => {
   return api({
     method: "get",
     url: "/news/getAll",
-    params,
+    params: {
+      ...params,
+      appId: APP_ID,
+    },
   });
 };

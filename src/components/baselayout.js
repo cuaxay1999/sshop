@@ -40,12 +40,12 @@ export default function BaseLayout({ children }) {
 
   const dispatch = useDispatch();
   // const pathName = usePathname();
-  // const params = useParams();
+  const params = useParams();
 
   // ["/ja", "/en", "/vi"].includes(pathName) &&
   //   dispatch(actionChangeLanguage(params.locale));
 
-  const locale = useSelector((state) => state.system.locale);
+  const locale = params.locale;
 
   const userInfo = useSelector((state) => state.profile.userInfo);
 

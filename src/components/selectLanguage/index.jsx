@@ -8,11 +8,13 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next-intl/client";
 import { useDispatch, useSelector } from "react-redux";
 import { actionChangeLanguage } from "@/app/[locale]/(auth)/system/actions";
+import { useParams } from "next/navigation";
 
 const SelectLanguage = () => {
   const dispatch = useDispatch();
   const texts = useSelector((state) => state.system.texts);
-  const locale = useSelector((state) => state.system.locale);
+  const params = useParams();
+  const locale = params.locale;
   const [dataSelect, setDataSelect] = useState([]);
 
   const router = useRouter();

@@ -7,7 +7,7 @@ import { PhoneFilled } from "@ant-design/icons";
 import SelectLanguage from "../../selectLanguage";
 import { getRouterByLocation } from "../../../utils/helpers";
 import { useSelector } from "react-redux";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,7 +16,8 @@ const NavBar = (props) => {
   const pathname = usePathname();
   const texts = useSelector((state) => state.system.texts);
 
-  const locale = useSelector((state) => state.system.locale);
+  const params = useParams();
+  const locale = params.locale;
 
   const generateLink = (path) => {
     return `/${locale}${path}`;
