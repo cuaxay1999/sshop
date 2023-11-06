@@ -49,13 +49,15 @@
     "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "Pioneering in providing online and offline 4.0 sales solutions for a business",
     "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "Create a chain of stores, functional interfaces for each industry",
     "APPLYING_AI_TECHNOLOGY": "Applying 4.0 AI technology, optimizing sales, improving customer experience",
-    "CAPTURE_CUSTOMER_NEEDS": "Capture customer needs, changes to your business model"
+    "CAPTURE_CUSTOMER_NEEDS": "Capture customer needs, changes to your business model",
+    "REGISTER_NOW": "Register now"
   },
   "Section3": {
     "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "Efficient and accurate warehouse management solution for each product unit",
     "SMART_REPORT_STATISTICS": "Smart report statistics, product warning exists, out of stock",
     "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "Look up import and export history, use products in the store. Safe and transparent",
-    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Provide a full range of export, import and return processes in the warehouse"
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "Provide a full range of export, import and return processes in the warehouse",
+    "REGISTER_NOW": "Register now"
   },
   "Section4": {
     "SELL_RIGHT_ON_THE_PHONE": "Sell ​​right on the phone",
@@ -63,7 +65,8 @@
     "VIEW_REPORTS_ANYTIME_ANYWHERE": "View reports anytime, anywhere",
     "SALES_SOFTWARE_ON_THE_PHONE_WILL": "Sales software on the phone will make instant sales statistics\nof each row as well as the transaction history. You can manage warehouses, stores, and labelers remotely without being physically present",
     "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "Compatible with all mobile devices",
-    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "The SShop application is available on both Android and iOS operating systems. Therefore, you can use the Shop app on different devices, ensuring retail store management anytime, anywhere."
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "The SShop application is available on both Android and iOS operating systems. Therefore, you can use the Shop app on different devices, ensuring retail store management anytime, anywhere.",
+    "REGISTER_NOW": "Register now"
   },
   "BtnRegisterSSR": {
     "REGISTER_NOW": "Register now"

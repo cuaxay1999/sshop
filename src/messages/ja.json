@@ -49,13 +49,15 @@
     "PIONEERING_IN_PROVIDING_ONLINE_AND_OFFLINE": "ビジネス向けのオンラインおよびオフライン 4.0 販売ソリューションの提供におけるパイオニア",
     "CREATE_A_CHAIN_OF_STORES_FUNCTIONAL": "各業界向けの店舗チェーン、機能インターフェースを作成する",
     "APPLYING_AI_TECHNOLOGY": "4.0 AI テクノロジーの適用、販売の最適化、カスタマー エクスペリエンスの向上",
-    "CAPTURE_CUSTOMER_NEEDS": "顧客ニーズの把握、ビジネス モデルの変更"
+    "CAPTURE_CUSTOMER_NEEDS": "顧客ニーズの把握、ビジネス モデルの変更",
+    "REGISTER_NOW": "今すぐ登録"
   },
   "Section3": {
     "EFFICIENT_AND_ACCURATE_WAREHOUSE_MANAGEMENT": "製品単位ごとの効率的かつ正確な倉庫管理ソリューション",
     "SMART_REPORT_STATISTICS": "スマート レポート統計、製品警告あり、在庫なし",
     "LOOK_UP_IMPORT_AND_EXPORT_HISTORY": "輸出入履歴の検索、ストア内の製品の使用。安全で透明",
-    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "倉庫での輸出、輸入、返品の全プロセスを提供"
+    "PROVIDE_A_FULL_RANGE_OF_EXPORT": "倉庫での輸出、輸入、返品の全プロセスを提供",
+    "REGISTER_NOW": "今すぐ登録"
   },
   "Section4": {
     "SELL_RIGHT_ON_THE_PHONE": "電話で直接売る",
@@ -63,7 +65,8 @@
     "VIEW_REPORTS_ANYTIME_ANYWHERE": "いつでもどこでもレポートを表示",
     "SALES_SOFTWARE_ON_THE_PHONE_WILL": "\n電話の販売ソフトウェアは、即座に販売統計を作成します\n各行の取引履歴と同様に。物理的に存在しなくても、倉庫、店舗、ラベラーをリモートで管理できます",
     "COMPATIBLE_WITH_ALL_MOBILE_DEVICES": "すべてのモバイルデバイスと互換性があります",
-    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "SShop アプリケーションは、Android と iOS の両方のオペレーティング システムで使用できます。したがって、さまざまなデバイスで Shop アプリを使用して、いつでもどこでも小売店を管理できます。"
+    "THE_SSHOP_APPLICATION_IS_AVAILABLE": "SShop アプリケーションは、Android と iOS の両方のオペレーティング システムで使用できます。したがって、さまざまなデバイスで Shop アプリを使用して、いつでもどこでも小売店を管理できます。",
+    "REGISTER_NOW": "今すぐ登録"
   },
   "BtnRegisterSSR": {
     "REGISTER_NOW": "今すぐ登録"
