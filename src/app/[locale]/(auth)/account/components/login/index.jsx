@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { LockOutlined } from "@ant-design/icons";
-import { Button, Form, Input, message } from "antd";
+import { Button, Form, Input, Spin, message } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import Cookies from "js-cookie";
 import { actionSetProfile } from "../../../profile/actions";
@@ -19,7 +19,7 @@ import {
 } from "../../actions";
 
 const Login = (props) => {
-  const { mobileNumber, authFirebase, forgotPwd } = props;
+  const { mobileNumber, authFirebase, forgotPwd, autoLogin } = props;
   const [form] = Form.useForm();
   const dispatch = useDispatch();
   const texts = useSelector((state) => state.system.texts);
@@ -94,54 +94,62 @@ const Login = (props) => {
     }
   };
 
+  if (autoLogin) {
+    handleGetChainList()
+  }
+
+  const [error, setError] = useState(false);
+
   return (
     <div className="login-component">
-      <div className="form-heading">
-        <span>{texts.LOGIN_INPUT_PASSWORD}</span>
-      </div>
-
-      <Form
-        form={form}
-        name="loginForm"
-        onFinish={handleSubmit}
-        size="large"
-        className="form-content"
-      >
-        <Form.Item
-          name="password"
-          rules={[
-            {
-              required: true,
-              message: texts.LOGIN_GUID_INPUT_PASSWORD,
-            },
-          ]}
-        >
-          <Input.Password
-            autoFocus
-            prefix={<LockOutlined />}
-            placeholder={texts?.LOGIN_INPUT_PASSWORD}
-            onChange={() => setError(false)}
-          />
-        </Form.Item>
-        <Form.Item>
-          <Button
-            className="btn-green-color w-full btn-action"
-            type="primary"
-            htmlType="submit"
-          >
-            {texts.LABEL_NEXT}
-          </Button>
-        </Form.Item>
-        <div style={{ textAlign: "center" }}>
-          <Button
-            onClick={() => forgotPwd(authFirebase, mobileNumber)}
-            type="link"
-          >
-            {" "}
-            {texts.LABEL_FORGOT_PASSWORD}
-          </Button>
+      <Spin spinning={autoLogin}>
+        <div className="form-heading">
+          <span>{texts.LOGIN_INPUT_PASSWORD}</span>
         </div>
-      </Form>
+
+        <Form
+          form={form}
+          name="loginForm"
+          onFinish={handleSubmit}
+          size="large"
+          className="form-content"
+        >
+          <Form.Item
+            name="password"
+            rules={[
+              {
+                required: true,
+                message: texts.LOGIN_GUID_INPUT_PASSWORD,
+              },
+            ]}
+          >
+            <Input.Password
+              autoFocus
+              prefix={<LockOutlined />}
+              placeholder={texts?.LOGIN_INPUT_PASSWORD}
+              onChange={() => setError(false)}
+            />
+          </Form.Item>
+          <Form.Item>
+            <Button
+              className="btn-green-color w-full btn-action"
+              type="primary"
+              htmlType="submit"
+            >
+              {texts.LABEL_NEXT}
+            </Button>
+          </Form.Item>
+          <div style={{ textAlign: "center" }}>
+            <Button
+              onClick={() => forgotPwd(authFirebase, mobileNumber)}
+              type="link"
+            >
+              {" "}
+              {texts.LABEL_FORGOT_PASSWORD}
+            </Button>
+          </div>
+        </Form>
+      </Spin>
     </div>
   );
 };

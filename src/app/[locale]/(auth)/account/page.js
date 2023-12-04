@@ -1,8 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Button, message } from "antd";
-import { ACCOUNT_STATE } from "@/utils/constants/config";
+import { ACCOUNT_STATE, SSHOP_SPA_TOKEN } from "@/utils/constants/config";
 import CheckPhoneNumber from "./components/checkPhoneNumber";
 import VerifyOTP from "./components/verifyOTP";
 import Login from "./components/login";
@@ -15,6 +15,7 @@ import AppSupport from "@/components/appSupport";
 import { LogoSSHOPText } from "@/assets/images";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
+import cookie from "js-cookie";
 
 import "./css/index.scss";
 
@@ -28,6 +29,15 @@ const SystemAccount = () => {
   const resetPwd = urlParams.get("resetPwd");
   const authFirebase = urlParams.get("authFirebase") == "true" ? true : false;
   const idToken = urlParams.get("idToken");
+  const [autoLogin, setAutoLogin] = useState(false)
+
+  const token = cookie.get(SSHOP_SPA_TOKEN)
+
+  useEffect (() => {
+    if (token) {
+      setAutoLogin(true)
+    }
+  }, [token])
 
   const forgotPwd = (
     authFirebase,
@@ -117,7 +127,7 @@ const SystemAccount = () => {
           />
         </div>
         <div className="account-main-content">
-          {(!actionState || actionState == ACCOUNT_STATE.GENERATE_OTP) && (
+          {(!actionState || actionState == ACCOUNT_STATE.GENERATE_OTP) && !autoLogin && (
             <CheckPhoneNumber
               resetPwd={resetPwd}
               authFirebase={authFirebase}
@@ -125,11 +135,12 @@ const SystemAccount = () => {
             />
           )}
 
-          {actionState == ACCOUNT_STATE.PASSWORD && (
+          {(actionState == ACCOUNT_STATE.PASSWORD || autoLogin ) && (
             <Login
               mobileNumber={mobileNumber}
               authFirebase={authFirebase}
               forgotPwd={forgotPwd}
+              autoLogin={autoLogin}
             />
           )}
 
