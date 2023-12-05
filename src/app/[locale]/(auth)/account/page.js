@@ -32,12 +32,23 @@ const SystemAccount = () => {
   const [autoLogin, setAutoLogin] = useState(false)
 
   const token = cookie.get(SSHOP_SPA_TOKEN)
+  const logout = urlParams.get('logout')
 
   useEffect (() => {
-    if (token) {
+    if (token && logout != 'true') {
       setAutoLogin(true)
     }
-  }, [token])
+  }, [token, logout])
+
+  useEffect (() => {
+    if (logout == 'true'){
+      handleLogout()
+    }
+  }, [logout])
+
+  const handleLogout = () => {
+    cookie.remove(SSHOP_SPA_TOKEN);
+  }
 
   const forgotPwd = (
     authFirebase,
