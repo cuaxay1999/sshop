@@ -52,7 +52,7 @@ const api = (options) => {
 
 export const apiOther = (options) => {
   let config = {
-    baseURL: "",
+    baseURL: CONFIG_SERVER.BASE_URL,
     ...options,
     paramsSerializer: (params) =>
       Qs.stringify(params, { arrayFormat: "repeat" }),

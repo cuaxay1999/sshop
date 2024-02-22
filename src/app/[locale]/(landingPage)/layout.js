@@ -69,11 +69,11 @@ const LandingLayout = ({ children }) => {
         supportFanpage={texts?.SUPPORT_FANPAGE}
       />
 
-      <ModalContact
+      {/* <ModalContact
         visible={isModalOpen}
         handleOk={handleOk}
         handleCancel={handleCancel}
-      />
+      /> */}
 
       {contextHolder}
     </Layout>

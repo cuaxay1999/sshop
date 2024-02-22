@@ -48,7 +48,7 @@ const COLUMNS_BANG_GIA = [
       "Đánh giá hài lòng khách hàng",
       "Chấm công, tính lương",
       "Cài đặt nguyên liệu tiêu hao khi làm dịch vụ",
-      "App, web dành hco quản lý , nhân viên",
+      "App, web dành cho quản lý , nhân viên",
       "Tính năng loyalty giữ chân khách hàng",
       "Hỗ trợ dịch vụ 24/7",
     ],

@@ -38,6 +38,7 @@ import {
   CONFIG_SERVER,
   SSHOP_SPA_TOKEN,
   PHONE_PATTERN,
+  PHONE_EMAIL_PATTERN,
 } from "@/utils/constants/config";
 
 import "./css/index.scss";
@@ -123,7 +124,7 @@ const Shop = () => {
     if (!isEmpty(values)) {
       setCallingAPI(true);
       if (chainId) {
-        await handleCreateShop(values, chainId);
+        await handleCreateShop(values, chainId, newSubDomain);
       } else {
         await handleCreateChain(values);
       }
@@ -131,7 +132,7 @@ const Shop = () => {
     }
   };
 
-  const handleCreateShop = async (values, chainId) => {
+  const handleCreateShop = async (values, chainId, uniqueSubdomain) => {
     const catId = values.catId;
     try {
       let categories = [
@@ -201,7 +202,7 @@ const Shop = () => {
 */
 
         window.location.replace(
-          `http://${newSubDomain}.${
+          `http://${uniqueSubdomain}.${
             CONFIG_SERVER.DOMAIN
           }?user-token=${cookie.get(SSHOP_SPA_TOKEN)}&locale=${locale}`
         );
@@ -227,8 +228,9 @@ const Shop = () => {
       const code = get(data, "status.code");
       if (code == 200) {
         const newChainId = data?.data?.chainId;
-        setNewSubDomain(data?.data?.subdomain);
-        await handleCreateShop(values, newChainId);
+        const uniqueSubdomain = data?.data?.subDomain
+        setNewSubDomain(data?.data?.subDomain);
+        await handleCreateShop(values, newChainId, uniqueSubdomain);
       } else {
         const resMsg = get(
           data,
@@ -347,8 +349,8 @@ const Shop = () => {
                   message: texts?.LABEL_PHONE_CANNOT_BLANK,
                 },
                 {
-                  pattern: PHONE_PATTERN,
-                  message: texts?.ERROR_POD_INVALID_MOBILE_NUMBER_FORMAT,
+                  pattern: PHONE_EMAIL_PATTERN,
+                  message: texts?.LOGIN_GUID_WARN_PHONE_MAIL_INVALID,
                 },
               ]}
             >

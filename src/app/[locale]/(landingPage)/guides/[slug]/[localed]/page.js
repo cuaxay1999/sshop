@@ -9,9 +9,10 @@ export async function generateMetadata({ params }) {
   console.log(newsId);
 
   let title = data.data.data.title;
+  let description = data.data.data.shortDescription
   return {
     title: title,
-    description: title,
+    description: description,
   };
 }
 

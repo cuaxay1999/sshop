@@ -3,11 +3,9 @@
 import { Button } from "antd";
 import "./css/index.scss";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 
 const BtnRegisterSSR = ({ txtBtn }) => {
-  const t = useTranslations("BtnRegisterSSR");
   const params = useParams();
   const locale = params.locale;
   return (

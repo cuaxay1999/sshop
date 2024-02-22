@@ -9,6 +9,7 @@ export const PHONE_PATTERN =
 export const EMAIL_PATTERN =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 export { REACT_APP_KEY_GG_MAP };
+export const PHONE_EMAIL_PATTERN = /^(?:(?:\+|0{0,2})[1-9]{1,4}(?:[ \.-]*[0-9]){8,14})$|^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
 export const APP_IDS = {
   SSPA: "SSPA",

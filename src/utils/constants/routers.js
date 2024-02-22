@@ -67,16 +67,16 @@ export default {
   ],
 
   AUTH_PAGE: [
-    {
-      name: "CHAIN",
-      path: "/chain",
-      element: "Chain",
-    },
-    {
-      name: "PROFILE",
-      path: "/profile",
-      element: "Profile",
-    },
+    // {
+    //   name: "CHAIN",
+    //   path: "/chain",
+    //   element: "Chain",
+    // },
+    // {
+    //   name: "PROFILE",
+    //   path: "/profile",
+    //   element: "Profile",
+    // },
     {
       name: "SHOP",
       path: "/shop",

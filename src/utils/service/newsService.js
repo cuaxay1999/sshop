@@ -1,9 +1,9 @@
-import api from './api';
+import api, {apiOther} from './api';
 import {APP_ID} from '../constants/config';
 
 // lấy bài viết top 1
 export const actionGetTop1News = (languageCode = '') => {
-    return api({
+    return apiOther({
         method: 'get',
         url: `/news/get_top`,
         params: {languageCode, appId: APP_ID}
@@ -12,7 +12,7 @@ export const actionGetTop1News = (languageCode = '') => {
 
 // lấy danh sách danh mục
 export const actionGetAllCategory = (languageCode = '', params) => {
-    return api({
+    return apiOther({
         method: 'get',
         url:'/news/category/get_all',
         params: {
@@ -27,7 +27,7 @@ export const actionGetAllCategory = (languageCode = '', params) => {
 
 // lấy danh sách bài viết theo danh mục và theo ngôn ngữ
 export const actionGetAllNews = (params = {}) => {
-    return api({
+    return apiOther({
         method: 'get',
         url:'/news/getAll',
         params: {

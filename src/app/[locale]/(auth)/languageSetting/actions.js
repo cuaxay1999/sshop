@@ -1,4 +1,4 @@
-import api from "@/utils/service/api";
+import api, {apiOther} from "@/utils/service/api";
 import axios from "axios";
 
 const URL_API = {
@@ -8,7 +8,7 @@ const URL_API = {
 };
 
 export const getListCountry = (params = {}) => {
-  return api({
+  return apiOther({
     method: "get",
     url: URL_API.CONFIG + URL_API.COUNTRY,
     params,
@@ -16,7 +16,7 @@ export const getListCountry = (params = {}) => {
 };
 
 export const getLocaleConfigByCountryCode = (params) => {
-  return api({
+  return apiOther({
     method: "get",
     url: URL_API.CONFIG,
     params,
@@ -24,7 +24,7 @@ export const getLocaleConfigByCountryCode = (params) => {
 };
 
 export const getCustomerConfig = (params = {}) => {
-  return api({
+  return apiOther({
     method: "get",
     url: URL_API.CUSTOMERS_CONFIG,
     params,
@@ -32,7 +32,7 @@ export const getCustomerConfig = (params = {}) => {
 };
 
 export const updateCustomerConfigLanguage = (params) => {
-  return api({
+  return apiOther({
     method: "put",
     url: URL_API.CUSTOMERS_CONFIG,
     params,

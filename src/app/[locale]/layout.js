@@ -17,10 +17,10 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "SShop - smart shop",
+  title: "SShop - Phần mềm quản lý bán hàng và kho hàng đa nền tảng - Chuyên nghiệp, hiệu quả, dễ dàng sử dụng",
   description:
-    "SShop là phần mềm bán hàng miễn phí trên điện thoại hỗ trợ các chủ cửa hàng quản lý kho, kiểm soát thu chi, báo cáo chính xác kịp thời từ đó giúp chủ cửa hàng dễ dàng quản lý và tăng doanh số",
-  keywords: ["SSHOP", "cửa hàng", "smart shop", "ứng dụng quản lý"],
+    "SShop - Phần mềm quản lý bán hàng thông minh, giúp bạn dễ dàng quản lý sản phẩm, kho hàng, kiểm soát thu chi, báo cáo chính xác và hiệu quả. Tối ưu hóa doanh nghiệp và cửa hàng của bạn ngay hôm nay với SShop",
+  keywords: ["SSHOP", "cửa hàng", "smart shop", "ứng dụng quản lý", "hiệu quả", "thông minh"],
 };
 
 export default async function LocaleLayout({ children, params }) {

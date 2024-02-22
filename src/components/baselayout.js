@@ -10,7 +10,7 @@ import {
 } from "next/navigation";
 import { useDispatch, useSelector } from "react-redux";
 import Cookies from "js-cookie";
-import { SSHOP_SPA_TOKEN } from "@/utils/constants/config";
+import { SSHOP_SPA_TOKEN, APP_ID } from "@/utils/constants/config";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-phone-number-input/style.css";
@@ -60,9 +60,9 @@ export default function BaseLayout({ children }) {
       token = paramUserToken;
     }
 
-    if (token) {
-      handleGetUserInfo();
-    }
+    // if (token) {
+    //   handleGetUserInfo();
+    // }
 
     if (window.innerWidth <= 1023) {
       setIsMobile(true);
@@ -85,7 +85,7 @@ export default function BaseLayout({ children }) {
   const getLanguageText = async () => {
     const res = await getLocaleConfigByCountryCode({
       countryCode: locale,
-      filter: "CLINIC",
+      filter: APP_ID,
     });
     if (res.data.status.code == 200) {
       let texts = {};

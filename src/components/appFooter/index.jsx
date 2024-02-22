@@ -149,10 +149,12 @@ const AppFooter = () => {
               {texts?.CERTIFICATION}
             </h2>
 
-            <p className="paragraph">
-              {texts?.BUSINESS_LIECENSE}: 0109959309<br></br>
-              {texts?.DATED} : 07/04/2022, {texts?.BY_BRO}
-            </p>
+            <p className="paragraph">{`
+              ${texts?.BUSINESS_LIECENSE}: 0109959309`
+            }</p>
+            <p className="paragraph">{`
+              ${texts?.DATED} : 07/04/2022, ${texts?.BY_BRO}`
+            }</p>
           </Col>
 
           <Col xs={12} md={12} lg={10}>
