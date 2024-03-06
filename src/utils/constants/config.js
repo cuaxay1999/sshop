@@ -32,8 +32,8 @@ const { REACT_APP_SERVER_BASE_URL, REACT_APP_KEY_GG_MAP, REACT_APP_DOMAIN } =
   process.env || {};
 
 export let CONFIG_SERVER = {
-  BASE_URL: REACT_APP_SERVER_BASE_URL || "https://proapi.sspa.com.vn",
-  DOMAIN: REACT_APP_DOMAIN || "sshop.biz",
+  BASE_URL: REACT_APP_SERVER_BASE_URL || "https://test-apigateway.sfin.vn",
+  DOMAIN: REACT_APP_DOMAIN || "sshop.asia",
 };
 
 export const CURRENCIES = [
