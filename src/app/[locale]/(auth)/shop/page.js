@@ -342,14 +342,14 @@ const Shop = () => {
 
             <Form.Item
               name="shopPhone"
-              label={texts?.LABEL_PHONE_OR_EMAIL}
+              label={texts?.LABEL_PHONE}
               rules={[
                 {
                   required: true,
                   message: texts?.LABEL_PHONE_CANNOT_BLANK,
                 },
                 {
-                  pattern: PHONE_EMAIL_PATTERN,
+                  pattern: PHONE_PATTERN,
                   message: texts?.LOGIN_GUID_WARN_PHONE_MAIL_INVALID,
                 },
               ]}

@@ -21,6 +21,16 @@ export const metadata = {
   description:
     "SShop - Phần mềm quản lý bán hàng thông minh, giúp bạn dễ dàng quản lý sản phẩm, kho hàng, kiểm soát thu chi, báo cáo chính xác và hiệu quả. Tối ưu hóa doanh nghiệp và cửa hàng của bạn ngay hôm nay với SShop",
   keywords: ["SSHOP", "cửa hàng", "smart shop", "ứng dụng quản lý", "hiệu quả", "thông minh"],
+  openGraph: {
+    title: 'SShop - Phần mềm quản lý bán hàng và kho hàng đa nền tảng - Chuyên nghiệp, hiệu quả, dễ dàng sử dụng',
+    description: 'SShop - Phần mềm quản lý bán hàng thông minh, giúp bạn dễ dàng quản lý sản phẩm, kho hàng, kiểm soát thu chi, báo cáo chính xác và hiệu quả. Tối ưu hóa doanh nghiệp và cửa hàng của bạn ngay hôm nay với SShop',
+    type: 'website',
+    images: [
+      {
+        url: 'https://ik.imagekit.io/7gfikyzq4/BN1.png?updatedAt=1712978634081'
+      }
+    ]
+  }
 };
 
 export default async function LocaleLayout({ children, params }) {

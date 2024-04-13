@@ -8,7 +8,7 @@ export const PHONE_PATTERN =
   /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
 export const EMAIL_PATTERN =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-export { REACT_APP_KEY_GG_MAP };
+// export { REACT_APP_KEY_GG_MAP };
 export const PHONE_EMAIL_PATTERN = /^(?:(?:\+|0{0,2})[1-9]{1,4}(?:[ \.-]*[0-9]){8,14})$|^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
 
 export const APP_IDS = {
@@ -28,12 +28,13 @@ export const ACCOUNT_STATE = {
   CHAIN_LIST: "chain-list",
 };
 
-const { REACT_APP_SERVER_BASE_URL, REACT_APP_KEY_GG_MAP, REACT_APP_DOMAIN } =
-  process.env || {};
+
+const NEXT_PUBLIC_KEY_GG_MAP = process.env.NEXT_PUBLIC_KEY_GG_MAP;
+export { NEXT_PUBLIC_KEY_GG_MAP };
 
 export let CONFIG_SERVER = {
-  BASE_URL: REACT_APP_SERVER_BASE_URL || "https://test-apigateway.sfin.vn",
-  DOMAIN: REACT_APP_DOMAIN || "sshop.asia",
+  BASE_URL: process.env.NEXT_PUBLIC_BASE_URL || "https://proapi.sspa.com.vn",
+  DOMAIN: process.env.NEXT_PUBLIC_DOMAIN || "sshop.biz",
 };
 
 export const CURRENCIES = [

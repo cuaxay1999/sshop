@@ -76,6 +76,13 @@ export default function BaseLayout({ children }) {
     }
   }, [locale]);
 
+  useEffect(() => {
+    if (window.location.host === 'sshop.asia' && 
+    (document.referrer === 'https://www.bing.com/' || document.referrer === 'https://www.google.com/')) {
+    window.location.href = 'https://sshop.biz/';
+    }
+  }, [])
+
   const handleGetUserInfo = async () => {
     try {
       dispatch(getUserInfo(push));

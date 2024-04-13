@@ -46,7 +46,6 @@ const api = (options) => {
   };
   if (cookie.get(SSHOP_SPA_TOKEN)) {
     config.headers.Authorization = `${cookie.get(SSHOP_SPA_TOKEN)}`;
-    config.headers.appId = 'SSHOP';
   }
   return request(config);
 };

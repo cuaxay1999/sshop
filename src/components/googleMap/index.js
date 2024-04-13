@@ -3,7 +3,7 @@ import { Modal } from 'antd';
 import { EnvironmentFilled } from '@ant-design/icons';
 import GoogleMapReact from 'google-map-react';
 import { isEmpty } from '../../utils/helpers';
-import { REACT_APP_KEY_GG_MAP } from '../../utils/constants/config';
+import { NEXT_PUBLIC_KEY_GG_MAP } from '../../utils/constants/config';
 
 import './css/index.scss';
 
